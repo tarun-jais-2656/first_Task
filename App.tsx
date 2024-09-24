@@ -51,6 +51,8 @@ export default class App extends Component {
     return true;
   };
 
+  //Demo2...changes
+
   handleSubmit = () => {
     if (this.validateInputs()) {
       const { firstName, lastName, email, phoneNumber, submittedData } = this.state;
